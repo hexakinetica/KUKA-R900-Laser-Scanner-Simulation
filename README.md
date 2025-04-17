@@ -1,48 +1,27 @@
-## KUKA-KR5-R900-MATLAB-Simulink
-#### Simulink basic simulation of the KUKA KR5 R900 sixx robot
+## KUKA-KR5-R900-Laser-Scanner-Simulation
 
-# KUKA-KR5-R900-Laser-Scanner-Simulation
-
-### 🦾 Simulink simulation of KUKA KR5 R900 with mounted 2D laser profilometer scanning a sphere
+#### 🦾 Simulink simulation of KUKA KR5 R900 with mounted 2D laser profilometer scanning a sphere
 
 This repository extends the basic KUKA KR5 R900 simulation by adding a **2D laser scanner** (profilometer) mounted at the robot's **TCP** (Tool Center Point). The scanner performs a **surface scan of a sphere**, simulating real-time laser profile data using **MATLAB Simulink + Simscape Multibody**.
 
 ![Screenshot](Screenshot.jpg)
 
-## 📌 Features
+Features:
+*  Real-time simulation of KUKA KR5 R900 using Simscape Multibody  
+*  2D laser scanner simulation mounted on the TCP  
+*  Sphere scanning scenario with adjustable scan frequency  
+*  Analytical 6DOF inverse kinematics solution  
+*  Dynamic visualization of scanning motion and laser intersections  
+*  Educational tool for learning about robotics, sensor integration, and scanning
 
-- ✅ Real-time simulation of KUKA KR5 R900 using Simscape Multibody  
-- ✅ 2D laser scanner simulation mounted on the TCP  
-- ✅ Sphere scanning scenario with adjustable scan frequency  
-- ✅ Analytical 6DOF inverse kinematics solution  
-- ✅ Dynamic visualization of scanning motion and laser intersections  
-- ✅ Educational tool for learning about robotics, sensor integration, and scanning
-
-> 🎥 **Watch on YouTube**: [Demo Video](https://youtu.be/5C7uFYExv2Q?si=nYtZtlngcmz0QnzO)
-
-
-## 🚀 Getting Started
-
-1. Open the project in **MATLAB R2024a** or newer (Simulink + Simscape Multibody required)
-2. Load the `KUKA_KR6R900_Scan_1.slx`
-3. Run the simulation and visualize scanning motion
-4. Adjust scanning frequency in the model workspace for custom behavior
+#### Youtube video with [demonstration](https://youtu.be/5C7uFYExv2Q?si=nYtZtlngcmz0QnzO)
 
 
-## 👨‍🔬 Applications
 
-- Educational demonstrations of laser scanning  
-- Simulating robotic sensor data  
-- Testing kinematic models with sensor payloads  
-- Research in automation, 3D profiling, and digital twin development
-
-
-## 🧩 Related Projects
+### 🧩 Related Projects
 
 - [KUKA-KR5-R900-MATLAB-Simulink](https://github.com/hexakinetica/KUKA-KR5-R900-MATLAB-Simulink) – Base robot simulation  
 - More robotics content on our [YouTube channel](https://www.youtube.com/@hexakinetica)
-
-
 
 
 ### Contributing
